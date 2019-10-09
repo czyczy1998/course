@@ -1,0 +1,105 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+html,body{
+	height: 100%;
+}
+#container{
+	width:100%;
+	height: 100%;
+	display: flex;
+}
+#left-list{
+	flex: 1;
+}
+#selected-title{
+	width: 90%;
+	height: 50px;
+	margin: 20px auto;
+	border: 1px solid #aaa;
+	border-radius: 10px;
+	background: #eee;
+	text-align: center;
+	line-height: 50px;
+	font-size: 24px;
+	font-weight: bold;
+}
+#selected-list{
+	width:90%;
+	margin: 0 auto;
+}
+#btn-div{
+	width:90%;
+	margin: 10px auto;
+}
+#cancel-selection{
+	color:#000;
+	display: block;
+	border:1px solid #aaa;
+	font-size: 12px;
+	width:70px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	background: #eee;
+	border-radius: 3px;
+}
+#cancel-selection:hover{
+	border:1px solid #777;
+	background: #ccc;
+}
+
+#selected-list>table{
+	width:100%;
+	border-collapse: collapse;
+	font-size: 14px;
+	
+}
+
+#selected-list>table td{
+	border: 1px solid #eee;
+	height: 35px;
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+#selected-list>table tr:nth-of-type(1){
+	font-weight: bold;
+	font-family: "黑体";
+}
+
+#selected-list>table tr:nth-of-type(even){
+	background: #f4f4f4;
+}
+
+#right-list{
+	flex: 1;
+	
+}
+#year{
+	padding:6px
+}
+#btn-div>select{
+	padding:6px;
+}
+#select-course{
+	color:#000;
+	border:1px solid #aaa;
+	font-size: 12px;
+	width:70px;
+	height: 32px;
+	text-align: center;
+	line-height: 32px;
+	background: #eee;
+	border-radius: 3px;
+}
+#select-course:hover{
+	border:1px solid #777;
+	background: #ccc;
+}

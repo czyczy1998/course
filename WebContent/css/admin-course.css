@@ -1,0 +1,19 @@
+#fenye{
+	width:90%;
+	height: 40px;
+	border:1px solid #ccc;
+	border-radius: 10px;
+	margin: 10px auto;
+}
+.page{
+	width:25px;
+	height: 25px;
+	border:1px solid #ccc;
+	background: #E6E6FA;
+	margin-top: 7px ;
+	margin-left:20px;
+	border-radius: 5px;
+	float:left;
+	text-align: center;
+	line-height: 25px;
+}

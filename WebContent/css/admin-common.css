@@ -1,0 +1,50 @@
+
+#class-title{
+	width: 90%;
+	height: 40px;
+	border: 1px solid #CCCCCC;
+	margin: 10px auto;
+	border-radius: 10px;
+	background: lavender;
+	text-align: center;
+	line-height: 40px;
+}
+#add-div{
+	height: 30px;
+	margin-bottom: 10px;
+}
+#add-button{
+	width: 50px;
+	height: 30px;
+	margin-left: 100px;
+}
+#add-button{
+	float: left;
+}
+#form-div{
+	float:left;
+	height: 30px;
+	width: 600px;
+	margin-left: 50px;
+
+}
+
+
+table{
+	width: 90%;
+	margin: 10px auto;
+	border: 1px solid #000000;
+}
+table th{
+	border: 1px solid #000000;
+	background: lavender;
+	height: 40px;
+}
+
+table td{
+	border: 1px solid #000000;
+	text-align: center;
+	height: 40px;	
+}
+
+
